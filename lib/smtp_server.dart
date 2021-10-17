@@ -17,7 +17,7 @@ class SmtpServer {
   SmtpServer(this.host,
       {this.port = 587,
       String name,
-      this.ignoreBadCertificate = false,
+      this.ignoreBadCertificate = true,
       this.ssl = false,
       this.allowInsecure = false,
       this.username,
